@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Inicio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+    <header>
+      <div id= "barraNavegacion" >
+        <ul>
+          <li> <img src="logo.png" id="logo"></li>
+          <li> <a href="main.html">Inicio</a> </li>
+          <li> <a>Rutas</a> </li>
+          <li> <a>Avisos</a> </li>
+          <li> <a>Pagos</a> </li>
+          <li> <a>Sugerencias</a> </li>
+          <li> <a href="login.html">Inicio de sesión</a> </li>
+
+        </ul>
+
+      </div>
+    </header>
+  
+
+    <main>
+      <div id="contenidoMain">
+        <h1 id="tituloMain">¡Bienvenido a tu sitio de movilidad León!</h1>
+        <p id="textoMain">¡Bienvenido al sitio de movilidad León! En este sitio, podrás conocer información acerca de las rutas de transporte público en León Guanajuato, obtener información importante acerca del sistema, gestionar tu pagobús y dejar tus comentarios y sugerencias para ayudarnos a mejorar nuestro servicio</p>
+      </div>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="carruselfoto1.gif"></div>
+          <div class="swiper-slide"><img src="carruselfoto2.webp"></div>
+          <div class="swiper-slide"><img src="carruselfoto3.jpg"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+    </main>
+  </body>
+
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const swiper = new Swiper(".swiper", {
+      loop: true, // Permite que el carrusel sea infinito
+      autoplay: {
+        delay: 3000, // Cambia la imagen cada 3 segundos
+        disableOnInteraction: false, // Sigue el autoplay aunque el usuario interactúe
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true, // Permite hacer clic en los puntos de paginación
+      },
+    });
+  });
+</script>
+  </body>
+</html>

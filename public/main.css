@@ -1,0 +1,291 @@
+body {
+  margin:0;
+  padding:0;
+
+}
+
+#fondoLogin {
+  background-color: rgba(0,77,7,1);
+}
+
+#barraNavegacion {
+  margin: 0px;
+  width: 100vw;
+  height: 10vh;
+  border-bottom: 1px solid rgb(0,144,13);
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 4vh;
+  font-style: normal;
+  padding: 0px;
+  background-color: white;
+
+
+}
+
+#barraNavegacion ul{
+  padding: 0px;
+  margin: 0;
+}
+
+#barraNavegacion li {
+  display: inline;
+  margin-left: 2.5vw;
+}
+
+#barraNavegacion li a {
+  outline: none;
+  text-decoration: none;
+  color: gray;
+  color: rgb(0,144,13);
+  margin-bottom: 3vh;
+
+}
+
+#barraNavegacion li a:hover {
+  color: rgb(0,230,22);
+
+}
+
+main {
+  display:flex;
+}
+
+#logo {
+  height: 50px;
+  object-fit: contain;
+  display: inline;
+  margin-right: 20vw;
+
+}
+
+#contenidoMain {
+  width:65vw;
+  margin:0;
+  height:70vh;
+  background: rgba(0,77,7,1);
+  padding-left: 2vw;
+
+}
+
+.swiper {
+  width:35vw;
+  margin:0;
+  height:70vh;
+  background: gray;
+}
+
+
+#tituloMain {
+  color: rgb(255,255,255);
+  width:100%;
+  height:12vh;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-size: 7vh;
+  font-style: normal;
+
+}
+
+#textoMain {
+  width:90%;
+  color: rgba(255,255,255,0.7);
+  font-family: "Kodchasan", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 4vh;
+  line-height: 1.7;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#cuadroSesion {
+  width:40vw;
+  height:70vh;
+  margin: auto;
+  margin-top: 10vh;
+  background-color: white;
+  padding-top: 4vh;
+
+
+
+}
+
+#tituloSesion {
+  margin: auto;
+  height:12vh;
+  color: rgba(0,77,7,1);
+  width: 60%;
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 7vh;
+  font-style: normal;
+  margin-bottom: 7vh;
+}
+
+
+#cuadroSesion form .campo {
+  margin: auto;
+  color: rgba(0,77,7,1);
+  width: 60%;
+  font-family: "Kodchasan", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 4vh;
+  font-style: normal;
+  display:  block;
+  margin-bottom: 8vh;
+  border: none;
+  border-bottom: 1px solid gray;
+
+}
+#cuadroCrear form .archivo {
+  color: rgba(0,77,7,1);
+  width: 80%;
+  font-family: "Kodchasan", serif;
+  font-weight: 100;
+  font-style: normal;
+  font-size: 3.4vh;
+  font-style: normal;
+  display:  block;
+  margin-bottom: 5vh;
+
+
+}
+
+#cuadroCrear form .archivoSeleccion {
+
+  font-family: "Kodchasan", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 3vh;
+  font-style: normal;
+  margin-bottom: 8vh;
+  background-color:
+
+
+
+}
+
+#cuadroCrear form .campo {
+  color: rgba(0,77,7,1);
+  width: 60%;
+  font-family: "Kodchasan", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 4vh;
+  font-style: normal;
+  display:  block;
+  margin-bottom: 8vh;
+  border: none;
+  border-bottom: 1px solid gray;
+
+}
+
+
+
+#cuadroSesion form #boton {
+  display: block;
+  margin: auto;
+  color:red;
+  font-family: "Kodchasan", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 4vh;
+  font-style: normal;
+  color: rgba(0,77,7,1);
+  background-color: rgba(0,77,7,0.2);
+  border: none;
+  width: 15vw;
+  height: 7vh;
+
+}
+
+#cuadroCrear form #boton {
+  display: block;
+  color:red;
+  font-family: "Kodchasan", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 4vh;
+  font-style: normal;
+  color: rgba(0,77,7,1);
+  background-color: rgba(0,77,7,0.2);
+  border: none;
+  width: 15vw;
+  height: 7vh;
+
+}
+
+
+#cuadroSesion form #boton:hover {
+
+  color: rgba(0,39,4,1);
+  background-color: rgba(0,77,7,0.4);
+
+}
+
+#cuadroCrear form #boton:hover {
+
+  color: rgba(0,39,4,1);
+  background-color: rgba(0,77,7,0.4);
+
+}
+
+#cuadroSesion a {
+  font-family: "Kodchasan", serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 3vh;
+  font-style: normal;
+  color: rgba(0,77,7,1);
+  display: block;
+  width:73%;
+  margin: auto;
+  margin-top: 3vh;
+
+
+
+}
+
+#cuadroSesion a:hover {
+
+  color: rgba(0,210,21,3);
+
+}
+
+#cuadroCrear {
+  width:70vw;
+  height:90vh;
+  margin: auto;
+  margin-top: 10vh;
+  background-color: white;
+  padding-left: 2vw;
+  box-sizing: border-box;
+  margin-bottom: 10vh;
+}
+
+#tituloCrear {
+  height:8vh;
+  color: rgba(0,77,7,1);
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 60;
+  font-size: 6vh;
+  font-style: normal;
+  margin-bottom: 7vh;
+  width: 80%
+}
+
+
+html, body {
+  width: 100%;
+  overflow-x: hidden;
+}
